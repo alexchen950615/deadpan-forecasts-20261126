@@ -2,16 +2,16 @@
 """Deadpan forecast for a city that does not exist.
 
 Writes one line (at most 160 characters) to /output/entry.txt:
-a weather forecast for New Bumbershoot, in the voice of a
+a weather forecast for Port Quibble, in the voice of a
 straight-faced TV meteorologist.
 """
 
 import os
 
 FORECAST = (
-    "In New Bumbershoot, expect a high of 61 with scattered umbrella rain, "
-    "as the city's 40,000 umbrellas open at noon and refuse to close "
-    "until further notice."
+    "In Port Quibble, expect a high of 54 and light fog, as the harbor's "
+    "12,000 seagulls file a complaint about the weather and demand "
+    "sunshine by Thursday."
 )
 
 
